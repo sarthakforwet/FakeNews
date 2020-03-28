@@ -1,0 +1,22 @@
+# FakeNews
+Model to detect Fake News (Without Neural Nets)
+
+Basically this model is designed to classify a news as Fake or not by learning it with words that appear mostly in Correct News . 
+
+This model has been trained over a csv file having `Sentence` and `label` as two columns , one as feature and other is label.
+
+After training I've saved the model in a pickle file named <a href ="https://drive.google.com/drive/u/0/folders/1A_fyCbB1JcUVkybIDRVPjO8EjxOgL8Kr">FakeNewsDetection.pkl</a>.
+
+
+To run this model follow the steps below:
+ 
+  1 Clone the Repo : git clone <a>https://github.com/sarthakforwet/FakeNews.git</a><br>
+  2 Go to the FakeNews directory<br>
+  3 open terminal and type `python test.py True/False --image (path to your image file if exist)`<br> 
+  4 run it !
+
+ - The Argument in step 3 `True/False` is basically if you wanna analyze the model or not. 
+Note : It is not necessary that you pass image argument ,if you won't pass an argument then it would prompt for it.
+
+The above command was for dealing with images. However if you want to run it on text input then you should change command at step 3 to 
+`python test.py --text (The Statement you wanna analysize)`  
