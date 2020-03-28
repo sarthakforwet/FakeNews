@@ -20,3 +20,5 @@ Note : It is not necessary that you pass image argument ,if you won't pass an ar
 
 The above command was for dealing with images. However if you want to run it on text input then you should change command at step 3 to 
 `python test.py --text (The Statement you wanna analysize)`  
+
+Here `FakeNews.ipynb` shows how the model was trained and whats the stats of it.
