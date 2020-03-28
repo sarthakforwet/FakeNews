@@ -1,0 +1,4 @@
+sklearn==0.0
+pytesseract
+nltk
+matplotlib
