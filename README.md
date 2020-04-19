@@ -22,3 +22,5 @@ The above command was for dealing with images. However if you want to run it on 
 `python test.py --text (The Statement you wanna analysize)`  
 
 Here `FakeNews.ipynb` shows how the model was trained and whats the stats of it.
+
+There is also a Model for the same problem using `Neural Nets(LSTM cells)` . <br> This model achieved an accuracy of `56.15%` which can be improved using preprocessing as i have done in the `Fake_News.ipynb` file . If you wish you can make a PR for that .
