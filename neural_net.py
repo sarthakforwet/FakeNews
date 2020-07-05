@@ -14,11 +14,7 @@ embedding_dim = 20
 df = pd.read_csv("H:/study_lake/Fake_News/Fake_News_Detection/train.csv")
 sentence , label = df.loc[:,"Statement"].values , df.loc[:,"Label"].values
 
-for each in label:
-    if each=="TRUE":
-        each =1
-        continue
-    each=0
+label = np.where(label=="TRUE",1,0)
 print(label) 
 # Prepairing the tokenizer 
 tokenizer = Tokenizer(num_words=vocab_size,oov_token = "<OOV>")
