@@ -23,6 +23,6 @@ The above command was for dealing with images. However if you want to run it on 
 
 Here `FakeNews.ipynb` shows how the model was trained and whats the stats of it.
 
-There is also a Model for the same problem using `Neural Nets(LSTM cells)` . <br> This model achieved an accuracy of `56.15%` which can be improved using preprocessing as i have done in the `Fake_News.ipynb` file . If you wish you can make a PR for that .
+There is also a Model for the same problem using `Neural Nets(LSTM cells)` . <br>
 
 Future Work:- Implementation of [this](https://arxiv.org/pdf/1805.08751.pdf) research paper.
